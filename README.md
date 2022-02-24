@@ -12,7 +12,7 @@ arguments. This is left to the responsibility of the user / calling
 code.
 
 GPmp implements :
-* GP interpolation and regression with unknown mean / intrisinc kriging
+* GP interpolation and regression with unknown mean / intrinsinc kriging
 * The standard Gaussian likelihood and the restricted likelihood of a model
 * Leave-one-out predictions using fast cross-validation formulas
 * Conditional sample paths
@@ -21,9 +21,9 @@ It is up to the user to write the mean and covariance functions for
 setting a GP model. However, GPmp provides building blocks for:
 * anisotropic scaling
 * distance matrix
-* Matérn kernels with half-integers regularties
-* Parameter selection using maximum likelihood / restricted maximum
-  likelihood / or user-defined criteria
+* Matérn kernels with half-integer regularities
+* Parameter selection using maximum likelihood, restricted maximum
+  likelihood, or user-defined criteria
 
 
 ## Installation
